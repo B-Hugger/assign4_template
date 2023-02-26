@@ -14,7 +14,7 @@ public class HiringApp {
         //  past employees (those who were fired)
         Deque<Person> pastEmployees = new ArrayDeque<>();
         //  new applicants
-        Deque<Person> applicants = new ArrayDeque<>();
+        Queue<Person> applicants = new ArrayDeque<>();
         //
         //Hint: for queue: Queue<Person>,  ArrayDeque, LinkedList
         //      for stack: Deque<Person>   ArrayDeque, LinkedList
